@@ -1,0 +1,44 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sticky-Notes</title>
+  </head>
+  <body>
+    <main>
+        <h1 id="header">STICKY NOTES</h1>
+       
+      <div class="container">
+        <div class="addNote">
+            <div>+</div>
+          </div>
+          
+          <div class="wlc-hide" id="wlc-img">
+            <h1>your journey start with your first note!!</h1>
+            <img  src="./resources/3d-hygge-young-woman-pinning-picture-on-moodboard.png" alt=""></div>
+          
+        <div class="notes"> 
+          
+        </div>
+      </div>
+      <div class="popup" id="popuptoggle">
+        <div class="popup_content">
+            <h2 id="popup-title">Add new note</h2>
+            <hr>
+            <span id="close-popup">X</span>
+            <div>
+                <h2>Title</h2><input type="text" id="title">
+            </div>
+            <div><h2>Note</h2><textarea id="subject"></textarea></div>
+            <button id="create">Add note</button>
+        </div>
+      </div>
+    </main>
+    <!-- script link -->
+    <script src="./app.js"></script>
+  </body>
+</html>
